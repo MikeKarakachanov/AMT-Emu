@@ -1,0 +1,86 @@
+v0.9.2 (public)
++ Updated presets (2017) [gui]
+
+v0.9.1 (public)
++ Updated locale reading (ISO3166) [amtemu]
++ Updated locale list [gui]
+
+v0.9 (public)
++ Fixed the "tryout" attribute. [amtemu]
++ Completed the code refactoring [amtemu]
++ Added the "AMT Version" param [amtemu]
+
+v0.8.2 (private)
++ Fixed the LEIDs info return [amtemu]
++ Fixed the parent LEID license status data [amtemu]
++ Fixed structure initialization [amtemu]
++ Updated version [amtemu]
++ Added initial support for MacOS [xcode]
+
+v0.8.1 (public)
++ Implimented the background status validation [amtemu]
++ Removed all deprecated configuration parameters [amtemu]
++ Added the "Language" param (again) [amtemu]
++ Updated presets [gui]
+
+v0.8 (public)
++ Added new config sets [gui]
++ Added Advanced options [gui]
++ Changed the file extension from .BAK to .DEL [gui]
+
+v0.7.5 (private)
++ Added the performance test info
++ Implimented the AdobePIP stub v0.2 [adobepip]
+
+v0.7.4 (private)
++ Optimized for AdobeID reading loop in latest CC (mb Adobe bug)
++ Implimented the AdobePIP (Product Improvement Program) stub v0.1 [adobepip]
+
+v0.7.3 (private)
++ Fixed activation language [amtemu]
++ Added the "ForceLanguage" param [amtemu]
++ Updated the IMSLib stub v0.2 [imslib]
+
+v0.7.2 (private)
++ Implimented locale reading (ISO639) [amtemu]
++ Implimented the menu localization [amtemu]
++ Implemented the "long path" support [amtemu]
++ Re-implimented the emu configuration [amtemu]
+- Deleted the "UpdateMenu" param [amtemu]
++ Implimented the IMSLib stub v0.1 [imslib]
+
+v0.7.1 (private)
++ Implimented Update menu [amtemu]
++ Added the "UpdateMenu" param [amtemu]
++ Implimented RetrieveLibrary function [amtemu]
++ Fixed the "PlugPlug" request [amtemu]
+
+v0.7 (public)
++ Fixed 32-bit Enigma record
++ Added Acrobat, Dreamweaver, InCopy and Muse data sets
+
+v0.6 (public)
++ Updated Enigma (2015 + 2013) record
++ Fixed menu set
++ Added new app data sets
+
+v0.5.3 (private)
++ Restored Enigma 2015 protection structure
++ Fixed supporting Adobe Media Encoder [CS6 - CC 2015.1]
++ Fixed supporting Adobe Premiere Pro [CS6 - CC 2015.1]
++ Fixed Photoshop [CS6 - CC 2015.1] configurtion and feature data set.
+
+v0.5.2 (private)
++ Added support Adobe Media Encoder (updated checking features)
++ Added support Adobe Premiere Pro [without update]
+
+v0.5.1 (private)
++ Fixed start apps from "Open With" menu. 
++ Added support After Effects (CC - 2015). 
++ Fixed reading INI.
+- Deleted Expiration record
+
+v0.5 (1-st release)
++ Added Enigma record
++ Added Expiration record
++ Added default API set
